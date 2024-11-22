@@ -11,7 +11,7 @@ import (
 	"sync"
 )
 
-var currentDir = "C:\\Users\\whither\\Documents\\goProjects\\RwhitherBlog\\content"
+var currentDir = "content"
 var suffix = ".md"
 var pattern = "!\\[.*?\\]\\((https?://.*?)(?:\\s+\".*?\")?\\)"
 var regex = regexp.MustCompile(pattern)
